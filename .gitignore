@@ -1,0 +1,27 @@
+# Environments & Secrets
+.env
+*.env
+*.key
+*.pem
+credentials*
+secrets*
+
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Databricks & Spark
+.databricks/
+checkpoint/
+derby.log
+metastore_db/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
