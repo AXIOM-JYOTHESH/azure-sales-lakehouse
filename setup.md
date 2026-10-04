@@ -1,6 +1,6 @@
 # My Azure Setup Walkthrough  
 
-I began by creating a **resource group** – a logical container to organize Azure services like databases and storage for my project. Named it `rg_car`. While the name only needs to be unique within *my* Azure subscription (not globally), I still picked something descriptive. Selected **South India** as the region since it’s closest to me, which reduces latency.    
+I began by creating a **resource group** – a logical container to organize Azure services like databases and storage for my project. Named it `RG_AZURE_CAR_PROJECT`. While the name only needs to be unique within *my* Azure subscription (not globally), I still picked something descriptive. Selected **Central India** as the region since it’s closest to me, which reduces latency.    
 <br>
 ![Create Resource Group](images/create_resource_group.png)
 
@@ -26,7 +26,7 @@ Under the *Advanced* tab, I enabled **hierarchical namespace**. This is **critic
 ## **Setting Up Data Factory**  
 For automating data workflows, I created **Azure Data Factory**:  
 1. Searched for *Data Factory* in Azure.  
-2. Selected my resource group (`rg_car`), name (`db`), and region (**Central India**).  
+2. Selected my resource group (`RG_AZURE_CAR_PROJECT`), name (`adfcaraxiom`), and region (**Central India**).  
 3. Skipped advanced settings (kept defaults) and clicked *Create*.  
 This will later help orchestrate pipelines to move data between services.
   
@@ -68,11 +68,11 @@ Clicked *Review + Create*, finalized settings, and deployed.
 ---
 
 ## **Final Setup**  
-Now that our setup is complete, let's review the resource group.  
-![image](https://github.com/user-attachments/assets/1ca69a28-91c9-4de1-9173-bd6ffe550547)
+Now that our setup is complete, let's review the resource group `RG_AZURE_CAR_PROJECT`.  
+![Resource Group RG_AZURE_CAR_PROJECT Overview](images/rg_azure_car_project_overview.png)
 
 
-Here, we can see the data lake, the data factory, databaseand the database server.
+Here, we can see the data lake storage account (`jyothesh`), Data Factory (`adfcaraxiom`), SQL database server (`axiomcarsale`), SQL database (`carsales`), Databricks service (`carsdatabricks`), and Databricks Access Connector (`carsaccessconnector`).
 
 Now, let's move on to the next step.
 [Click here to go to the Extract Layer](Extract.md) 
