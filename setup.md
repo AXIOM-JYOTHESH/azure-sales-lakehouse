@@ -1,8 +1,8 @@
 # My Azure Setup Walkthrough  
 
-I began by creating a **resource group** – a logical container to organize Azure services like databases and storage for my project. Named it `azuresales-data-project`. While the name only needs to be unique within *my* Azure subscription (not globally), I still picked something descriptive. Selected **South India** as the region since it’s closest to me, which reduces latency.    
+I began by creating a **resource group** – a logical container to organize Azure services like databases and storage for my project. Named it `rg_car`. While the name only needs to be unique within *my* Azure subscription (not globally), I still picked something descriptive. Selected **South India** as the region since it’s closest to me, which reduces latency.    
 <br>
-![image](https://github.com/user-attachments/assets/7c3b04b5-2239-4ef3-b765-34e981ed8f24)
+![Create Resource Group](images/create_resource_group.png)
 
 
 ---
