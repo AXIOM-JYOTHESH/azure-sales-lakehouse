@@ -12,9 +12,9 @@ Now that we have successfully extracted the data and stored it in our SQL databa
 
 To begin, I navigated to **Azure Databricks** and clicked on **Create**. Here are the details I provided:
 
-- **Workspace Name**: azuresales-databricks-workspace
-- **Pricing Tier**: Trial Premium (Standard would have worked too, but Premium gives more features)
-- **Managed Resource Group**: managed-azure-project
+- **Workspace Name**: carsdatabricks
+- **Pricing Tier**: Premium (+ Role-based access controls)
+- **Resource Group**: RG_AZURE_CAR_PROJECT
 
   ![image](https://github.com/user-attachments/assets/e17bc10a-79f9-4394-b869-f781aec2a9c7)
   
@@ -22,7 +22,7 @@ I then clicked on **Review + Create** and deployed the workspace successfully.
 
 After deployment, I clicked on **Go to Resource**, which opened the **Databricks workspace** in a new tab.
 
-![image](https://github.com/user-attachments/assets/0b81800a-e358-4ab0-b586-73de13070b0c)
+![Azure Databricks Overview](images/azure_databricks_overview.png)
 
   ![image](https://github.com/user-attachments/assets/a71f43cc-9de3-4c99-9eaf-061c553b9a44)
   
