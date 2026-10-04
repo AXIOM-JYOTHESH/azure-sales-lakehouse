@@ -26,11 +26,11 @@ Under the *Advanced* tab, I enabled **hierarchical namespace**. This is **critic
 ## **Setting Up Data Factory**  
 For automating data workflows, I created **Azure Data Factory**:  
 1. Searched for *Data Factory* in Azure.  
-2. Selected my resource group, name (`azuresales-datafactory`) and region (**South India**).  
+2. Selected my resource group (`rg_car`), name (`db`), and region (**Central India**).  
 3. Skipped advanced settings (kept defaults) and clicked *Create*.  
 This will later help orchestrate pipelines to move data between services.
   
-![image](https://github.com/user-attachments/assets/36122e0c-6868-40c5-95ac-eaa3cd5d31ef)
+![Create Data Factory](images/create_data_factory.png)
 
 
 ---
