@@ -61,7 +61,7 @@ In *Networking*, enabled **Public Endpoint** for easy access (⚠️ risky for p
 - 32 GB backup storage  
 Without this, it would’ve cost ~474 INR/month.  
   
-![image](https://github.com/user-attachments/assets/286a7bff-6ab8-41fa-9b98-e5bb05aee525)
+![Azure SQL Database Free Tier](images/azure_sql_free_tier.png)
 
 Clicked *Review + Create*, finalized settings, and deployed.  
 
